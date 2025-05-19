@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HiProbity - Where Integrity Drives Innovation</title>
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        /* Basic CSS for layout and branding - You'll expand on this in style.css */
+        body {
+            font-family: sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4; /* Light grey background */
+            color: #333; /* Dark grey text */
+            line-height: 1.6;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        header {
+            background-color: #222831; /* Dark background from logo */
+            color: white;
+            padding: 20px 0;
+        }
+
+        header .container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        header h1 {
+            margin: 0;
+        }
+
+        header nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+        }
+
+        header nav ul li {
+            margin-left: 20px;
+        }
+
+        header nav a {
+            color: white;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+
+        header nav a:hover {
+            color: #00bcd4; /* Cyan accent from logo */
+        }
+
+        .hero {
+            background-color: #f4f4f4;
+            padding: 100px 0;
+            text-align: center;
+        }
+
+        .hero-content {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .hero h1 {
+            color: #00bcd4; /* Cyan accent */
+            font-size: 2.5em;
+            margin-bottom: 20px;
+        }
+
+        .hero p {
+            font-size: 1.2em;
+            line-height: 1.8;
+            margin-bottom: 30px;
+        }
+
+        .hero-buttons a {
+            display: inline-block;
+            padding: 15px 30px;
+            border-radius: 5px;
+            text-decoration: none;
+            margin: 10px;
+            font-weight: bold;
+            transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+        }
+
+        .hero-buttons .primary {
+            background-color: #00bcd4; /* Cyan accent */
+            color: white;
+            border: 2px solid #00bcd4;
+        }
+
+        .hero-buttons .secondary {
+            background-color: transparent;
+            color: #00bcd4; /* Cyan accent */
+            border: 2px solid #00bcd4;
+        }
+
+        .hero-buttons .primary:hover {
+            background-color: #008ba7; /* Darker cyan */
+            border-color: #008ba7;
+        }
+
+        .hero-buttons .secondary:hover {
+            background-color: #00bcd4; /* Cyan accent */
+            color: white;
+        }
+
+        .features {
+            padding: 80px 0;
+            background-color: white;
+        }
+
+        .features h2 {
+            color: #222831; /* Dark color from logo */
+            font-size: 2em;
+            text-align: center;
+            margin-bottom: 40px;
+        }
+
+        .features-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+        }
+
+        .feature-item {
+            text-align: center;
+            padding: 20px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+
+        .feature-item img {
+            max-width: 80px;
+            margin-bottom: 15px;
+        }
+
+        .feature-item h3 {
+            color: #008ba7; /* Darker cyan */
+            margin-bottom: 10px;
+        }
+
+        .feature-item p {
+            line-height: 1.7;
+        }
+
+        footer {
+            background-color: #222831; /* Dark background from logo */
+            color: white;
+            padding: 30px 0;
+            text-align: center;
+        }
+
+        footer .container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        footer p {
+            margin: 0;
+        }
+
+        /* You will add more styles and responsive design in your style.css file */
+        /* This embedded style is just for basic layout and branding */
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1><img src="images/hiprobity-logo-white-text.png" alt="HiProbity Logo" style="max-height: 65px;"></h1>
+            <nav>
+                <ul>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact Us</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="hero" class="hero">
+            <div class="container">
+                <div class="hero-content">
+                    <h1>Where Integrity Drives Innovation</h1>
+                    <p>Your trusted partner for full-stack development, mobile apps, UI/UX design, cloud solutions, and more.</p>
+                    <div class="hero-buttons">
+                        <a href="#contact" class="button primary">Get a Free Consultation</a>
+                        <a href="#services" class="button secondary">Explore Our Services</a>
+                    </div>
+                </div>
+                </div>
+        </section>
+
+        <section id="features" class="features">
+            <div class="container">
+                <h2>Our Core Services</h2>
+                <div class="features-grid">
+                    <div class="feature-item">
+                        <img src="images/web-icon.png" alt="Web Development">
+                        <h3>Full-Stack Web Excellence</h3>
+                        <p>Custom web application development, responsive UI/UX design, frontend (React, Angular, Vue, etc.), backend (Node.js, Python, PHP, Java, etc.), RESTful & GraphQL APIs.</p>
+                    </div>
+                    <div class="feature-item">
+                        <img src="images/mobile-icon.png" alt="Mobile App Development">
+                        <h3>Seamless Mobile Experiences</h3>
+                        <p>Android and iOS app development, cross-platform development (Flutter, React Native), app store deployment and maintenance.</p>
+                    </div>
+                    <div class="feature-item">
+                        <img src="images/design-icon.png" alt="UI/UX Design">
+                        <h3>Intuitive UI/UX Design</h3>
+                        <p>User research and wireframing, interactive prototyping, web and mobile interface design.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 HiProbity. All rights reserved.</p>
+            </div>
+    </footer>
+
+    <script>
+        // Basic JavaScript for any interactive elements can go here later
+    </script>
+</body>
+</html>
